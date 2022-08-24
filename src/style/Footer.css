@@ -1,0 +1,21 @@
+.foot-container {
+  height: 10rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mini-timer {
+  border: 3px solid #0ddaad;
+  font-size: 2rem;
+  padding: 1rem;
+  color: #0ddaad;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 900px) {
+  .mini-timer {
+    font-size: 1rem;
+  }
+}

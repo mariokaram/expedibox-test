@@ -1,0 +1,49 @@
+.nav-container {
+  position: relative;
+  height: 5rem;
+  display: flex;
+  background: #0ddaad;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+}
+
+.header-link {
+  cursor: pointer;
+}
+.header-link:hover {
+  opacity: 0.7;
+}
+
+.home {
+  width: 50%;
+}
+
+.timer-container {
+  height: 0rem;
+  justify-content: center;
+  align-items: center;
+  background-color: indianred;
+  color: white;
+  display: flex;
+  font-size: 1.2rem;
+  transition: all 0.5s ease-in;
+
+  visibility: hidden;
+  opacity: 0;
+}
+.popdown {
+  visibility: visible;
+  opacity: 1;
+  height: 2rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .home {
+    width: auto !important;
+  }
+}
